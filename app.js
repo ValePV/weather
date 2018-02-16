@@ -61,7 +61,7 @@ fetch(`https://api.darksky.net/forecast/4ec1983185d2c03f41bb0aba2a0a0254/${latit
   .then((data) => {
     console.log(data);
     let temperature = Math.round(data.currently.apparentTemperature);
-    let humidity = Math.round(data.currently.humidity);
+    let humidity = parseInt(data.currently.humidity);
     let windSpeed = Math.round(data.currently.windSpeed);
     let uvIndex = data.currently.uvIndex;
     let pressure = Math.round(data.currently.pressure);
