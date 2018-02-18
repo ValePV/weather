@@ -6,9 +6,8 @@ body{
   margin-left: 10%;
   display: inline-block;
 }
-
 th{
-  padding-right: 3em;
+  padding-right: 1.5em;
 }
 table{
   font-size: 3.5em;
@@ -38,9 +37,13 @@ h1{
   margin-top: 40%;
   background-color: rgba(0,0,0,0.5);
   padding: 1.5em;
+  font-size: 0.75em;
 }
 button{
   width: 100%;
   background-color: rgba(0,0,0,0.8);
   padding: 2em;
+}
+.iconSize{
+  width: 33%;
 }
